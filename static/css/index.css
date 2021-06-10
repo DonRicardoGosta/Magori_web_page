@@ -1,0 +1,43 @@
+﻿*{
+    margin:0;
+}
+/*---------------------------------------NAVBAR---------------------------------*/
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+#main-menupoints {
+    list-style: none;
+    padding: 0;
+    height: 100%;
+    width: 90%;
+    color: rgba(255,255,255,0.6);
+}
+.main-menupoint {
+    float: right;
+    margin: 0 10px 0 10px;
+    font-size: 14px;
+}
+.main-menupoint a{
+     line-height:100px;
+     transition:0.5s;
+     cursor:pointer;
+ }
+.main-menupoint a:hover{
+    color:rgba(255,255,255,1);
+}
+#webshop-menupoint{
+    color:white;
+    background-color:#ace600;
+    padding:10px;
+    border-radius:50px;
+}
+#webshop-menupoint:hover{
+    background-color:white;
+    color:#ace600;
+}
+/*---------------------------------------END NAVBAR---------------------------------*/
