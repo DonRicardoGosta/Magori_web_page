@@ -10,6 +10,16 @@ nav {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
 }
+/*-------------------------------NAV LOGO-------------------*/
+#logo-container {
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+    height:50px;
+    width:215px;
+    float: left;
+    margin: 25px 0 25px 10%;
+}
+/*-------------------------------END NAV LOGO-------------------*/
 /*-------------------------------NAV MAIN MENUS-------------------*/
 #main-menupoints {
     list-style: none;
@@ -38,7 +48,7 @@ nav {
     border-radius:50px;
 }
 /*-------------------------------END NAV MAIN MENUS-------------------*/
-/*-------------------------------NAV AL MENUS-------------------*/
+/*-------------------------------NAV AL-MENUS-------------------*/
 .main-menupoint:hover .al-menupoints{
     display:block;
 }
@@ -53,6 +63,10 @@ nav {
     font-size: 13px;
     height:50px;
     overflow:hidden;
+    transition:0.5s;
+}
+.al-menupoint:hover{
+    background-color:rgba(255,255,255,0.2);
 }
 .al-menupoint a{
     display:inline-block;
@@ -70,7 +84,7 @@ nav {
     height:50px;
 }
 
-/*-------------------------------END NAV AL MENUS-------------------*/
+/*-------------------------------END NAV AL-MENUS-------------------*/
 /*---------------WEBHSOP MENUPOINT--------------------*/
 #webshop-menupoint:hover {
     background-color: white;
