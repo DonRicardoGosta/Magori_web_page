@@ -10,6 +10,7 @@ nav {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
 }
+/*-------------------------------NAV MAIN MENUS-------------------*/
 #main-menupoints {
     list-style: none;
     padding: 0;
@@ -36,8 +37,44 @@ nav {
     padding:10px;
     border-radius:50px;
 }
-#webshop-menupoint:hover{
-    background-color:white;
-    color:#ace600;
+/*-------------------------------END NAV MAIN MENUS-------------------*/
+/*-------------------------------NAV AL MENUS-------------------*/
+.main-menupoint:hover .al-menupoints{
+    display:block;
 }
+.al-menupoints {
+    list-style: none;
+    padding: 0;
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,1);
+}
+.al-menupoint {
+    font-size: 13px;
+    height:50px;
+    overflow:hidden;
+}
+.al-menupoint a{
+    display:inline-block;
+    margin: 0 15px 0 15px;
+    line-height:50px;
+}
+.al-menupoint:hover .green-align{
+    background-color:#ace600;  
+}
+.green-align{
+    position:fixed;
+    display:inline-block;
+    background-color:transparent;
+    width:10px;
+    height:50px;
+}
+
+/*-------------------------------END NAV AL MENUS-------------------*/
+/*---------------WEBHSOP MENUPOINT--------------------*/
+#webshop-menupoint:hover {
+    background-color: white;
+    color: #ace600;
+}
+/*---------------END WEBHSOP MENUPOINT--------------------*/
 /*---------------------------------------END NAVBAR---------------------------------*/
