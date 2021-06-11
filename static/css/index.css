@@ -196,4 +196,29 @@ nav:hover #active-menupoint {
     min-height: 60vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1));
 }
+#about-us-container {
+    color: white;
+    margin: 0 10% 0 10%;
+    height: 60vh;
+    width: 80%;
+    font-family: "Raleway", sans-serif;
+    line-height:20px;
+    letter-spacing:0.83px;
+}
+#about-us-container h1{
+    font-size:25px;
+    
+    margin-bottom:3vh;
+}
+#about-us-container h2{
+    margin: 0 0 3vh 2.5%;
+    font-size:16px;
+    font-style:italic;
+    font-weight:500;
+}
+#about-us-container h3{
+    margin: 0 0 0 5%;
+    font-size:13px;
+    font-weight:500;
+}
 /*----------------------------------END ABOUT US SECTION--------------------------------*/
