@@ -51,12 +51,12 @@ nav:hover{
     margin: 0 10px 0 10px;
     font-size: 14px;
 }
-.not-scrolled-nav .main-menupoint a {
+.not-scrolled-nav .main-menupoint .main-menupoint-text {
     line-height: 100px;
     transition: 0.5s;
     cursor: pointer;
 }
-.scrolled-nav .main-menupoint a {
+.scrolled-nav .main-menupoint .main-menupoint-text {
     line-height: 70px;
     transition: 0.5s;
     cursor: pointer;
