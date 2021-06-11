@@ -65,20 +65,14 @@ nav:hover{
     color:rgba(255,255,255,1);
 }
 #active-menupoint {
-    background-color: transparent;
+    background: transparent;
     padding: 20px 5px 20px 5px;
     border-radius: 50px;
-    border: 3px solid rgba(0,0,0,0);
+    transition:0.3s;
 }
 nav:hover #active-menupoint {
     color: white;
-    border: 3px solid #ace600;
-}
-.main-menupoint:hover #active-menupoint{
-    color: white;
-    background-color: transparent;
-    padding: 10% 5px 10% 5px;
-    border-radius: 5px;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(172,230,0,1) 98%, rgba(172,230,0,1) 100%);
 }
 #webshop-menupoint{
     color:white;
