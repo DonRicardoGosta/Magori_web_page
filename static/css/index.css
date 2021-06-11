@@ -131,3 +131,31 @@ nav:hover #active-menupoint {
 }
 /*---------------END WEBHSOP MENUPOINT--------------------*/
 /*---------------------------------------END NAVBAR---------------------------------*/
+/*----------------------------------INTRO SECTION-------------------------------*/
+#intro-fix-background {
+    background: url(../img/intro-bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 100vh;
+    width: 100%;
+}
+#linear-dark-background {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+#intro {
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+#intro-title-container {
+    padding-top:30vh;
+    width:100%;
+    text-align:center;
+    font-size:34px;
+    font-weight:600;
+}
+.green-text{
+    color:#ace600;
+}
+/*----------------------------------END INTRO SECTION-------------------------------*/
