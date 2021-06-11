@@ -3,26 +3,39 @@
 }
 /*---------------------------------------NAVBAR---------------------------------*/
 nav {
-    height: 100px;
     width: 100%;
-    background-color: black;
     position: fixed;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
-    opacity:0.9;
     transition:0.3s;
 }
+.not-scrolled-nav {
+    height: 100px;
+    background-color: rgba(0,0,0,0);
+}
+.scrolled-nav {
+    height: 70px;
+    background-color: rgba(0,0,0,0.9);
+}
 nav:hover{
-    opacity:1;
+    background-color: rgba(0,0,0,1);
 }
 /*-------------------------------NAV LOGO-------------------*/
-#logo-container {
+.not-scrolled-nav #logo-container {
     background: url(../img/logo.png) no-repeat;
     background-size: contain;
-    height:50px;
-    width:215px;
+    height: 50px;
+    width: 215px;
     float: left;
     margin: 25px 0 25px 10%;
+}
+.scrolled-nav #logo-container {
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+    height: 35px;
+    width: 215px;
+    float: left;
+    margin: 17.5px 0 17.5px 10%;
 }
 /*-------------------------------END NAV LOGO-------------------*/
 /*-------------------------------NAV MAIN MENUS-------------------*/
@@ -38,16 +51,21 @@ nav:hover{
     margin: 0 10px 0 10px;
     font-size: 14px;
 }
-.main-menupoint a{
-     line-height:100px;
-     transition:0.5s;
-     cursor:pointer;
- }
+.not-scrolled-nav .main-menupoint a {
+    line-height: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.scrolled-nav .main-menupoint a {
+    line-height: 70px;
+    transition: 0.5s;
+    cursor: pointer;
+}
 .main-menupoint:hover a{
     color:rgba(255,255,255,1);
 }
 #active-menupoint {
-    color:white;
+    color: white;
     background-color: transparent;
     padding: 20px 5px 20px 5px;
     border-radius: 50px;
