@@ -9,6 +9,11 @@ nav {
     position: fixed;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
+    opacity:0.9;
+    transition:0.3s;
+}
+nav:hover{
+    opacity:1;
 }
 /*-------------------------------NAV LOGO-------------------*/
 #logo-container {
@@ -38,8 +43,21 @@ nav {
      transition:0.5s;
      cursor:pointer;
  }
-.main-menupoint a:hover{
+.main-menupoint:hover a{
     color:rgba(255,255,255,1);
+}
+#active-menupoint {
+    color:white;
+    background-color: transparent;
+    padding: 20px 5px 20px 5px;
+    border-radius: 50px;
+    border: 3px solid #ace600;
+}
+.main-menupoint:hover #active-menupoint{
+    color: white;
+    background-color: transparent;
+    padding: 10% 5px 10% 5px;
+    border-radius: 5px;
 }
 #webshop-menupoint{
     color:white;
@@ -80,7 +98,7 @@ nav {
     position:fixed;
     display:inline-block;
     background-color:transparent;
-    width:10px;
+    width:6px;
     height:50px;
 }
 
