@@ -65,10 +65,13 @@ nav:hover{
     color:rgba(255,255,255,1);
 }
 #active-menupoint {
-    color: white;
     background-color: transparent;
     padding: 20px 5px 20px 5px;
     border-radius: 50px;
+    border: 3px solid rgba(0,0,0,0);
+}
+nav:hover #active-menupoint {
+    color: white;
     border: 3px solid #ace600;
 }
 .main-menupoint:hover #active-menupoint{
