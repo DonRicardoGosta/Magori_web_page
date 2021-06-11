@@ -225,12 +225,44 @@ nav:hover #active-menupoint {
 /*----------------------------------COUNTER--------------------------------*/
 #counter {
     background-color: white;
-    height: 222px;
+    height: 212px;
     width: 70%;
     margin: 0 15% 0 15%;
-    box-shadow: 0.7150153217568948vh 0.7034632034632035vw 0.9199134199134199vw -4px rgba(0,0,0,0.9);
+    box-shadow: 5px 11px 14px -4px rgba(0,0,0,0.9);
     border-radius: 12px;
     display: inline flow-root list-item;
+    list-style:none;
+}
+#counter-digital-numbers-contanier{
+    height:142px;
+    width:100%;
+}
+.counter-digital-number {
+    background-color: black;
+    width: 16.7%;
+    margin: 40px 4% 0 4%;
+    height: 102px;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 5px 11px 14px -4px rgba(0,0,0,0.9);
+    color: white;
+    text-align: center;
+    line-height: 102px;
+    font-family: "Open-sans", sans-serif;
+    font-size:40px;
+}
+#counter-text-container-for-the-digital-numbers {
+    height: 70px;
+    width: 100%;
+}
+.counter-text-for-digital-number {
+    width: 16.7%;
+    margin: 0 4% 0 4%;
+    display: inline-block;
+    line-height: 70px;
+    text-align: center;
+    font-size: 21px;
+
 }
 /*----------------------------------END COUNTER--------------------------------*/
 /*----------------------------------SERVICES--------------------------------*/
@@ -243,6 +275,8 @@ nav:hover #active-menupoint {
 }
 #services{
     min-height:100vh;
-    
+}
+#services-gray-linear-background {
+    background: linear-gradient(to bottom, rgba(47, 47, 47, 0.4), rgba(47, 47, 47, 1));
 }
 /*----------------------------------END SERVICES--------------------------------*/
