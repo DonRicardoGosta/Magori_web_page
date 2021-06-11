@@ -155,4 +155,17 @@ nav:hover{
 .green-text{
     color:#ace600;
 }
+#intro-text-container {
+    margin-top: 10vh;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.66048px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+#intro-text-container .intro-quote {
+    font-size: 16.5px;
+    line-height: 27px;
+}
 /*----------------------------------END INTRO SECTION-------------------------------*/
