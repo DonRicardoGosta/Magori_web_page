@@ -5,6 +5,7 @@ let scrolled = false;
 let navMenu = document.querySelector("nav");
 
 function initialize() {
+    window.scrollTo(0,0)
     console.log("load");
 }
 
