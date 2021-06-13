@@ -21,6 +21,9 @@ nav:hover{
     background-color: rgba(0,0,0,1);
 }
 /*-------------------------------NAV LOGO-------------------*/
+#logo-container{
+    transition:0.3s;
+}
 .not-scrolled-nav #logo-container {
     background: url(../img/logo.png) no-repeat;
     background-size: contain;
@@ -32,7 +35,7 @@ nav:hover{
 .scrolled-nav #logo-container {
     background: url(../img/logo.png) no-repeat;
     background-size: contain;
-    height: 35px;
+    height: 40px;
     width: 215px;
     float: left;
     margin: 17.5px 0 17.5px 10%;
@@ -53,12 +56,12 @@ nav:hover{
 }
 .not-scrolled-nav .main-menupoint .main-menupoint-text {
     line-height: 100px;
-    transition: 0.5s;
+    transition: 0.3s;
     cursor: pointer;
 }
 .scrolled-nav .main-menupoint .main-menupoint-text {
     line-height: 70px;
-    transition: 0.5s;
+    transition: 0.3s;
     cursor: pointer;
 }
 .main-menupoint:hover a{
